@@ -1,10 +1,8 @@
 package Tmg05Lesson;
 
-
-public class GenericPrinterImpl implements GenericPrinter{
-    Printable print = new PrintableRealization("kokoko");
+public class GenericPrinterImpl implements GenericPrinter<Printable>{
     @Override
     public void printIt(Printable toPrint) {
-        System.out.println(print.printMe());
+        System.out.println(toPrint.printMe());
     }
 }

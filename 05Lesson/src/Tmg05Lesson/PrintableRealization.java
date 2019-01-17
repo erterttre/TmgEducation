@@ -9,7 +9,6 @@ public class PrintableRealization implements Printable{
 
     @Override
     public String printMe() {
-        //System.out.println("Some text11 " + field);
         return "Some text " + field;
     }
 }

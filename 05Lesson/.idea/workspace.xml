@@ -23,11 +23,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tmg05Lesson/PrintableRealization.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="420">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding>
                 <element signature="e#157#158#0" expanded="true" />
                 <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -45,11 +47,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tmg05Lesson/GenericPrinterImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="100">
+              <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
               <folding>
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +60,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tmg05Lesson/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+            <state relative-caret-position="280">
+              <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -80,13 +82,13 @@
         <option value="$PROJECT_DIR$/src/Tmg05Lesson/GenericPrinter.java" />
         <option value="$PROJECT_DIR$/src/Tmg05Lesson/ColectionSet.java" />
         <option value="$PROJECT_DIR$/src/Tmg05Lesson/Printable.java" />
+        <option value="$PROJECT_DIR$/src/Tmg05Lesson/GenericPrinterImpl.java" />
         <option value="$PROJECT_DIR$/src/Tmg05Lesson/PrintableRealization.java" />
         <option value="$PROJECT_DIR$/src/Tmg05Lesson/Main.java" />
-        <option value="$PROJECT_DIR$/src/Tmg05Lesson/GenericPrinterImpl.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="84" />
     <option name="y" value="20" />
     <option name="width" value="1272" />
@@ -119,12 +121,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547629699312" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547715709357" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -173,8 +175,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-9" width="1310" height="786" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26661265" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27228525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -234,17 +237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tmg05Lesson/PrintableRealization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#191#192#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tmg05Lesson/GenericPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -254,19 +246,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tmg05Lesson/GenericPrinterImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="100">
+          <caret line="5" column="46" lean-forward="true" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
           <folding>
-            <element signature="e#197#198#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tmg05Lesson/PrintableRealization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tmg05Lesson/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        <state relative-caret-position="280">
+          <caret line="23" column="79" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
         </state>
       </provider>
     </entry>
