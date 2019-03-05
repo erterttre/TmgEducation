@@ -30,4 +30,26 @@
         <url-pattern>/hello-mvc</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>UsersServlet</servlet-name>
+        <servlet-class>Servlet.UsersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UsersServlet</servlet-name>
+        <url-pattern>/hello-db2</url-pattern>
+    </servlet-mapping>
+
+    <filter>
+        <filter-name>UserFilter</filter-name>
+        <filter-class>Filter.UserFilter</filter-class>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>UserFilter</filter-name>
+        <servlet-name>UsersServlet</servlet-name>
+    </filter-mapping>
+
+    <welcome-file-list>
+        <welcome-file>/Pages/Home Page.jsp</welcome-file>
+    </welcome-file-list>
 </web-app>
