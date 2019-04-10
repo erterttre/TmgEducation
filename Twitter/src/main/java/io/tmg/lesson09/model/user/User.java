@@ -10,6 +10,13 @@ public class User {
     public User() {
     }
 
+    public User(String userName, String userPassword, String userCountry, String registrationDate) {
+        this.userName = userName;
+        this.userPassword = userPassword;
+        this.userCountry = userCountry;
+        this.registrationDate = registrationDate;
+    }
+
     public int getId() {
         return id;
     }

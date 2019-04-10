@@ -5,7 +5,10 @@ import io.tmg.lesson09.model.twitt.Twitt;
 import java.util.List;
 
 public interface TwittService {
+    /*
     List getAllTwitt();
+
+     */
 
     List getUserTwitt();
 

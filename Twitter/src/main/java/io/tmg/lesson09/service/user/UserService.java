@@ -9,4 +9,6 @@ public interface UserService {
     List getAllUsers();
 
     void addUser(User user);
+
+    void seeUserName(User user);
 }

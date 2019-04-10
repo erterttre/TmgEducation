@@ -1,13 +1,17 @@
 package io.tmg.lesson09.facade.twitt;
 
+
+import io.tmg.lesson09.facade.data.DataTwitt;
 import io.tmg.lesson09.model.twitt.Twitt;
 
 import java.util.List;
 
 public interface TwittFacade {
-    List<Twitt> transformListTwittModetToListTwittModelShow(List<Twitt> twitt);
+    List<DataTwitt> transformListTwittModetToListTwittModelShow(List<Twitt> dataTwitt);
 
-    Twitt transformTwittModetToTwittModelShow(Twitt twitt);
+    DataTwitt transformTwittModetToTwittModelShow(DataTwitt dataTwitt);
 
-    List<Twitt> showUserTwitt();
+    List<DataTwitt> showUserTwitt();
+
+    void addTwitt(Twitt twitt) throws Exception;
 }

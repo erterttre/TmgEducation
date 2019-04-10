@@ -1,6 +1,8 @@
 package io.tmg.lesson09.model.twitt;
 
-public class Twitt {
+import io.tmg.lesson09.facade.data.DataTwitt;
+
+public class Twitt extends DataTwitt {
     private int messageId;
     private String topMessage;
     private String bodyMessage;

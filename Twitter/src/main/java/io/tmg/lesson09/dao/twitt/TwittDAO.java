@@ -7,7 +7,10 @@ import java.util.List;
 public interface TwittDAO {
     List<Twitt> getUserMessage(Integer user_id);
 
+    /*
     List<Twitt> getAllMessages();
+
+     */
 
     void createTwitt(Twitt twitt);
 }

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="io.tmg.lesson09.service.twitt.TestTwittServiceImpl" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-04-08T13:15:25" hostname="nikol-ThinkPad-E580" time="0.012">
-  <properties/>
-  <testcase name="testAddTwittSuccess" classname="io.tmg.lesson09.service.twitt.TestTwittServiceImpl" time="0.009"/>
-  <testcase name="testAddTwittFeld" classname="io.tmg.lesson09.service.twitt.TestTwittServiceImpl" time="0.002"/>
-  <system-out><![CDATA[2019-04-08 16:15:25 ERROR [Test worker]:Не допустимая длинна твитта =3Должна быть от 6 до 256!
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
